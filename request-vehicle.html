@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a Vehicle | Your Company Name</title>
+<meta name="description" content="Request a safari vehicle or car hire in Uganda, with or without a driver.">
+<meta property="og:title" content="Request a Vehicle | Your Company Name">
+<meta property="og:description" content="Request a safari vehicle or car hire in Uganda, with or without a driver.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/placeholder.svg">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TravelAgency","name":"Your Company Name","url":"","telephone":"+256 787 543 387","email":"lazarustaiso7@gmail.com","address":{"@type":"PostalAddress","streetAddress":"Your address, Uganda","addressCountry":"UG"}}</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="index.html">Your Company Name</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle('nav-open')">&#9776;</button>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="safaris.html">Safaris</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="vehicles.html">Vehicle Hire</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="testimonials.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-sm" href="request-safari.html">Plan Your Trip</a>
+    </nav>
+  </div>
+</header>
+<main>
+<div class="page-head"><div class="wrap"><h1>Request a Vehicle</h1></div></div>
+<section><div class="wrap" style="max-width:760px">
+  <form class="f" data-kind="vehicle">
+    <div><label>Name *</label><input type="text" name="name" required ></div>
+    <div class="row"><div><label>Phone *</label><input type="text" name="phone" required ></div><div><label>WhatsApp number</label><input type="text" name="whatsapp"  ></div></div>
+    <div><label>Email</label><input type="email" name="email"  ></div>
+    <div><label>Vehicle requested</label><input name="vehicle" list="vl"><datalist id="vl"><option value="Toyota Land Cruiser Safari"><option value="Toyota Hiace"><option value="Toyota Rav4"><option value="Saloon Car"></datalist></div>
+    <div class="row"><div><label>Pickup location</label><input type="text" name="pickup"  ></div><div><label>Drop-off location</label><input type="text" name="dropoff"  ></div></div>
+    <div class="row"><div><label>Pickup date</label><input type="date" name="pickup_date"  ></div><div><label>Return date</label><input type="date" name="return_date"  ></div></div>
+    <div class="row"><div><label>Number of passengers</label><input type="number" name="passengers"  min="1"></div>
+      <div><label>Driver required?</label><select name="driver_required"><option>Yes</option><option>No</option></select></div></div>
+    <div><label>Additional requirements</label><textarea name="requirements" rows="4"></textarea></div>
+    <div class="sent alert ok" hidden></div>
+    <div><button class="btn btn-wa" type="submit" data-via="wa">Send via WhatsApp</button>
+    <button class="btn btn-line" type="submit" data-via="email">Send by Email</button></div>
+  </form>
+</div></section>
+</main>
+<footer class="site-footer">
+  <div class="wrap grid cols-3">
+    <div>
+      <h4>Your Company Name</h4>
+      <p>Safaris, tour vehicle hire and airport transfers across Uganda.</p>
+      <p class="social">
+              </p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <p><a href="safaris.html">Safari packages</a><br><a href="destinations.html">Destinations</a><br><a href="vehicles.html">Vehicle hire</a><br><a href="request-vehicle.html">Request a vehicle</a><br><a href="gallery.html">Gallery</a></p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="tel:+256787543387">+256 787 543 387</a><br>
+      <a href="mailto:lazarustaiso7@gmail.com">lazarustaiso7@gmail.com</a><br>
+      Your address, Uganda<br>Mon - Sat: 8:00 AM - 6:00 PM</p>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <span>&copy; 2026 Your Company Name. All rights reserved.</span>
+    <span><a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms &amp; Conditions</a></span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/256787543387?text=Hello%2C%20I%20would%20like%20to%20hire%20a%20tour%20vehicle." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+<div class="mobile-bar">
+  <a href="tel:+256787543387">Call</a>
+  <a class="wa" href="https://wa.me/256787543387?text=Hello%2C%20I%20would%20like%20to%20hire%20a%20tour%20vehicle." target="_blank" rel="noopener">WhatsApp</a>
+  <a href="request-safari.html">Enquire</a>
+</div>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
